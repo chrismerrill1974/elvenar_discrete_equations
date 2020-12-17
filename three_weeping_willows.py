@@ -31,14 +31,4 @@ x=range(31)
 plt.stem(x, result)
 plt.ylim(0, 120000)
 plt.show()
- 
-# stem function: If no X provided, a sequence of numbers is created by python:
-plt.stem(values)
-#plt.show()
- 
-# stem function: second way
-(markerline, stemlines, baseline) = plt.stem(x, result)
-plt.setp(baseline, visible=False)
-#plt.show()
-
 
